@@ -15,3 +15,11 @@ https://www.sbcr.jp/product/4815615758/
 @[codepen](https://codepen.io/asamih5/pen/qBLrVjr)
 
 ## 色の値を取得する
+HTMLのinputタグにつけた、「colorPicker」というIDからカラーコードを取得します。
+「querySelector()」のメソッドを使い、HTMLの中から任意のIDがついた要素を取得し、「.value」でその値を取得します。取得できているか確認するため、一旦コンソールに表示します。
+```html:index.html
+<input id="colorPicker" type="color">
+```
+```js:script.js
+console.log(document.querySelector('#colorPicker'));
+```
