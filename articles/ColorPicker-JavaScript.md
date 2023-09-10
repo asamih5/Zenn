@@ -14,4 +14,4 @@ https://www.sbcr.jp/product/4815615758/
 ## デモ
 https://codepen.io/asamih5/pen/qBLrVjr
 
-##
+## 色の値を取得する
